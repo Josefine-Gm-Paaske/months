@@ -1,8 +1,10 @@
+//Importing scanner
 import java.util.Scanner;
 
 public class Months {
 	public static void main(String[] args) {
 		System.out.println("Write a number of a month");
+		//Reads userinput
 		Scanner inp = new Scanner(System.in);
 	    int monthNumber = inp.nextInt();
 	    inp.close();
