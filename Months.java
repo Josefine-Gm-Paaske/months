@@ -7,6 +7,7 @@ public class Months {
 		//Reads userinput
 		Scanner inp = new Scanner(System.in);
 	    int monthNumber = inp.nextInt();
+		//Closingthe scanner
 	    inp.close();
         switch (monthNumber) {
             case 1:  System.out.println("January - Winter - Happy New Year!");
