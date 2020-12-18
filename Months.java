@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class Months {
 	public static void main(String[] args) {
 		System.out.println("Write a number of a month");
+		System.out.println("The number has to be from 1 - 12");
 		//Reads userinput
 		Scanner inp = new Scanner(System.in);
 	    int monthNumber = inp.nextInt();
